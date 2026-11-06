@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-This project analyzes 6,855 UFC fights to identify fighter characteristics associated with winning a fight. Using SAS and logistic regression, our group examined how differences in fighter statistics, such as age, reach, striking ability, and takedown performance, relate to fight outcomes.
+Our project analyzes 6,855 UFC fights to identify fighter characteristics that are associated with winning a fight. Using SAS and logistic regression, our group examined how differences in fighter statistics, such as age, reach, striking ability, and takedown performance, can relate to fight outcomes.
 
-The goal was to use statistical analysis to provide insights that could help coaches and fighters better understand which characteristics are associated with success in the UFC.
+Our goal was to use statistical analysis to provide insights that could help coaches and fighters better understand which characteristics are associated with success in a UFC fight.
 
 ## The Dataset
 
@@ -19,20 +19,19 @@ For example, a positive reach differential indicates that Fighter 1 has a longer
 The dependent variable was fight outcome, coded as:
 
 1: Fighter 1 wins
-
 0: Fighter 1 does not win
 
 ## Methodology
 
-1. Data Preparation: Imported the cleaned UFC dataset into SAS and selected relevant variables for analysis.
+1. Data Preparation: We imported the cleaned UFC dataset into SAS and selected relevant variables for analysis.
 
-2. Exploratory Analysis: Examined variable distributions, fighter stances, and relationships between predictors and fight outcomes.
+2. Exploratory Analysis: We examined variable distributions, fighter stances, and relationships between predictors and fight outcomes.
 
-3. Model Diagnostics: Investigated potential complete separation using frequency tables, scatterplots, and coefficient standard errors.
+3. Model Diagnostics: We investigated potential complete separation using frequency tables, scatterplots, and coefficient standard errors.
 
-4. Logistic Regression: Developed a binary logistic regression model using fighter stance and 11 numerical differential variables.
+4. Logistic Regression: We developed a binary logistic regression model using fighter stance and 11 numerical differential variables.
 
-5. Interpretation: Evaluated odds ratios and 95% confidence intervals to identify statistically significant predictors.
+5. Interpretation: We evaluated odds ratios and 95% confidence intervals to identify statistically significant predictors.
 
 ## Key Findings
 
@@ -48,7 +47,7 @@ Our logistic regression analysis identified several statistically significant re
 
 *All interpretations hold other predictors constant. These findings represent statistical associations, not necessarily causal relationships.*
 
-##Model Results
+## Model Results
 
 * Statistical Method: Binary Logistic Regression
 * Software: SAS
@@ -61,17 +60,31 @@ The c-statistic of 0.708 indicates moderate discrimination on the analyzed datas
 
 ## Repository Contents
 
-data/ — Cleaned UFC fight dataset
-
-sas_code/ — SAS program for the statistical analysis
-
-reports/ — Project presentation, SAS results, and AI-use documentation
+- [data/](data/) — Cleaned UFC fight dataset
+- [sas_code/](sas_code/) — SAS program for the statistical analysis
+- [reports/](reports/) — Project presentation, SAS results, and AI-use documentation
 
 Course: STAT 172 — Drake University
 
 ## Conclusion
 
-This project provided hands-on experience applying statistical modeling to a real-world sports dataset. Through data preparation, exploratory analysis, logistic regression, and interpretation of model results, our group identified several fighter characteristics associated with UFC fight outcomes.
+This project provided me with hands-on experience applying statistical modeling to a real-world sports dataset. Through data preparation, exploratory analysis, logistic regression, and interpretation of model results, our group identified several fighter characteristics associated with UFC fight outcomes.
 
 The project demonstrates how statistical analysis can turn raw sports data into meaningful insights that support informed decision-making.
 
+
+## Project Contributors
+
+- Quinn Ertz
+- Nick Martin
+- Dillon Foster
+
+**Course:** STAT 172 — Drake University
+
+
+## Tools & Skills
+
+- **SAS:** Data preparation, exploratory analysis, and logistic regression
+- **Statistical Modeling:** Binary logistic regression, odds ratios, and confidence intervals
+- **Data Analysis:** Variable selection, categorical analysis, and model diagnostics
+- **Data Visualization:** Scatterplots and statistical output interpretation
