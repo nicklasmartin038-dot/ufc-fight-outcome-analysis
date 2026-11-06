@@ -1,4 +1,4 @@
-### UFC Fight Outcome Analysis Using SAS
+## UFC Fight Outcome Analysis Using SAS
 
 ##Project Overview
 
@@ -22,7 +22,7 @@ The dependent variable was fight outcome, coded as:
 
 0: Fighter 1 does not win
 
-##Methodology
+## Methodology
 
 1. Data Preparation: Imported the cleaned UFC dataset into SAS and selected relevant variables for analysis.
 
@@ -34,7 +34,7 @@ The dependent variable was fight outcome, coded as:
 
 5. Interpretation: Evaluated odds ratios and 95% confidence intervals to identify statistically significant predictors.
 
-##Key Findings
+## Key Findings
 
 
 
@@ -49,7 +49,7 @@ The dependent variable was fight outcome, coded as:
 The c-statistic of 0.708 indicates moderate discrimination on the analyzed dataset. This is an in-sample result, not an independently validated prediction accuracy.
 
 
-#Repository Contents
+## Repository Contents
 
 data/ — Cleaned UFC fight dataset
 
@@ -59,7 +59,7 @@ reports/ — Project presentation, SAS results, and AI-use documentation
 
 Course: STAT 172 — Drake University
 
-##Conclusion
+## Conclusion
 
 This project provided hands-on experience applying statistical modeling to a real-world sports dataset. Through data preparation, exploratory analysis, logistic regression, and interpretation of model results, our group identified several fighter characteristics associated with UFC fight outcomes.
 
