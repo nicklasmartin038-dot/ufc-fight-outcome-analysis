@@ -49,11 +49,11 @@ Our logistic regression analysis identified several statistically significant re
 
 ## Model Results
 
-* Statistical Method: Binary Logistic Regression
-* Software: SAS
-* Observations: 6,855 UFC fights
-* Concordance (c-statistic): 0.708
-* Likelihood Ratio Test: χ²(14) = 918.07, p < 0.0001
+** Statistical Method:** Binary Logistic Regression
+** Software:** SAS
+** Observations:** 6,855 UFC fights
+** Concordance (c-statistic):** 0.708
+** Likelihood Ratio Test:** χ²(14) = 918.07, p < 0.0001
 
 The c-statistic of 0.708 indicates moderate discrimination on the analyzed dataset. This is an in-sample result, not an independently validated prediction accuracy.
 
@@ -63,8 +63,6 @@ The c-statistic of 0.708 indicates moderate discrimination on the analyzed datas
 - [data/](data/) — Cleaned UFC fight dataset
 - [sas_code/](sas_code/) — SAS program for the statistical analysis
 - [reports/](reports/) — Project presentation, SAS results, and AI-use documentation
-
-Course: STAT 172 — Drake University
 
 ## Conclusion
 
