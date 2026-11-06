@@ -1,12 +1,12 @@
 ### UFC Fight Outcome Analysis Using SAS
 
-#Project Overview
+##Project Overview
 
 This project analyzes 6,855 UFC fights to identify fighter characteristics associated with winning a fight. Using SAS and logistic regression, our group examined how differences in fighter statistics, such as age, reach, striking ability, and takedown performance, relate to fight outcomes.
 
 The goal was to use statistical analysis to provide insights that could help coaches and fighters better understand which characteristics are associated with success in the UFC.
 
-#Dataset
+## The Dataset
 
 The dataset contains 6,855 UFC fights and includes fighter characteristics, performance statistics, and fight outcomes.
 
@@ -22,7 +22,7 @@ The dependent variable was fight outcome, coded as:
 
 0: Fighter 1 does not win
 
-#Methodology
+##Methodology
 
 1. Data Preparation: Imported the cleaned UFC dataset into SAS and selected relevant variables for analysis.
 
@@ -34,11 +34,11 @@ The dependent variable was fight outcome, coded as:
 
 5. Interpretation: Evaluated odds ratios and 95% confidence intervals to identify statistically significant predictors.
 
-#Key Findings
+##Key Findings
 
 
 
-#Model Results
+##Model Results
 
 * Statistical Method: Binary Logistic Regression
 * Software: SAS
@@ -59,7 +59,7 @@ reports/ — Project presentation, SAS results, and AI-use documentation
 
 Course: STAT 172 — Drake University
 
-#Conclusion
+##Conclusion
 
 This project provided hands-on experience applying statistical modeling to a real-world sports dataset. Through data preparation, exploratory analysis, logistic regression, and interpretation of model results, our group identified several fighter characteristics associated with UFC fight outcomes.
 
