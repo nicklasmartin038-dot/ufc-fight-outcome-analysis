@@ -1,6 +1,6 @@
 ## UFC Fight Outcome Analysis Using SAS
 
-##Project Overview
+# Project Overview
 
 This project analyzes 6,855 UFC fights to identify fighter characteristics associated with winning a fight. Using SAS and logistic regression, our group examined how differences in fighter statistics, such as age, reach, striking ability, and takedown performance, relate to fight outcomes.
 
