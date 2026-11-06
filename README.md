@@ -1,4 +1,4 @@
-## UFC Fight Outcome Analysis Using SAS
+### UFC Fight Outcome Analysis Using SAS
 
 #Project Overview
 
