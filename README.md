@@ -1,6 +1,6 @@
-## UFC Fight Outcome Analysis Using SAS
+# UFC Fight Outcome Analysis Using SAS
 
-# Project Overview
+## Project Overview
 
 This project analyzes 6,855 UFC fights to identify fighter characteristics associated with winning a fight. Using SAS and logistic regression, our group examined how differences in fighter statistics, such as age, reach, striking ability, and takedown performance, relate to fight outcomes.
 
@@ -36,7 +36,17 @@ The dependent variable was fight outcome, coded as:
 
 ## Key Findings
 
+Our logistic regression analysis identified several statistically significant relationships:
 
+| Fighter Characteristic | Odds Ratio | Interpretation |
+|---|---|---|
+| Significant Strikes per Minute | 1.335 | 33.5% higher odds of winning per additional strike-per-minute advantage. |
+| Reach Difference | 1.029 | 2.9% higher odds of winning per additional inch of reach advantage. |
+| Strikes Absorbed per Minute | 0.772 | 22.8% lower odds of winning per additional strike absorbed per minute relative to the opponent. |
+| Age Difference | 0.940 | 6.0% lower odds of winning per additional year of age relative to the opponent. |
+| Southpaw vs. Switch Stance | 1.472 | Southpaw fighters had 47.2% higher odds of winning compared with switch-stance fighters. |
+
+*All interpretations hold other predictors constant. These findings represent statistical associations, not necessarily causal relationships.*
 
 ##Model Results
 
